@@ -166,7 +166,7 @@ h1 {
 }
 
 form {
-    border-radius: 5px; 
+    border-radius: 5px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -230,52 +230,52 @@ form input {
 #depoimentos {
     padding: 5rem 0;
     background-color: #f8f9fa;
-  }
-  
-  #depoimentos h2 {
+}
+
+#depoimentos h2 {
     margin-bottom: 2rem;
     font-size: 2.5rem;
     font-weight: 700;
     color: #343a40;
-  }
-  
-  #carouselDepoimentos .carousel-item {
+}
+
+#carouselDepoimentos .carousel-item {
     text-align: center;
-  }
-  
-  #carouselDepoimentos .card {
+}
+
+#carouselDepoimentos .card {
     border: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-  }
-  
-  #carouselDepoimentos .card-body {
+}
+
+#carouselDepoimentos .card-body {
     padding: 2rem;
-  }
-  
-  #carouselDepoimentos .card-text {
+}
+
+#carouselDepoimentos .card-text {
     font-size: 1.25rem;
     color: #6c757d;
     margin-bottom: 1.5rem;
-  }
-  
-  #carouselDepoimentos .card-title {
+}
+
+#carouselDepoimentos .card-title {
     font-size: 1.5rem;
     font-weight: 700;
     color: #343a40;
-  }
-  
-  .carousel-control-prev,
-  .carousel-control-next {
+}
+
+.carousel-control-prev,
+.carousel-control-next {
     width: 50px;
     height: 50px;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 50%;
     top: 50%;
     transform: translateY(-50%);
-  }
-  
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
     background-size: 100%, 100%;
-  }
+}
