@@ -14,6 +14,10 @@ a {
     color: #333;
 }
 
+.nav-link:hover {
+    color: rgb(255, 230, 0);
+}
+
 nav {
     background-color: rgb(24, 24, 27);
     height: 7.5vh;
@@ -54,7 +58,8 @@ nav {
     border-radius: 1rem;
 }
 
-.btn, .btn-primary{
+.btn,
+.btn-primary {
     color: #fff;
     border: 1px solid #858585;
     padding: 10px 20px;
@@ -68,6 +73,7 @@ nav {
 .btn:hover {
     background-color: #535151;
     color: white;
+    border: none;
 }
 
 .card {
@@ -88,6 +94,8 @@ nav {
     align-content: flex-end;
     justify-content: space-around;
     align-items: baseline;
+    height: 30rem;
+    text-align: start;
 }
 
 .services-img {
@@ -101,7 +109,8 @@ h5 {
     font-weight: bold
 }
 
-.card-text, .services-text {
+.card-text,
+.services-text {
     display: flex;
     justify-content: flex-start;
 }
@@ -117,8 +126,147 @@ h5 {
 
 .product-container {
     width: 100%;
+    margin-bottom: 3rem;
 }
 
 .products-title {
-    color: #fff;
+    color: #000000;
 }
+
+.card-our-services {
+    margin-bottom: 1rem;
+}
+
+.container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-galeria {
+    background-color: rgba(248, 117, 65, 0.7);
+
+    padding: 3rem;
+}
+
+.gallery-rows {
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+
+}
+
+.form-and-button {
+    background-color: orange;
+}
+
+form {
+    border-radius: 5px; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+form legend {
+    color: #000000;
+    font-size: 2.4rem;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.3rem;
+    color: black;
+}
+
+form input [ type="text"],
+form input [ type="email"],
+form input [ type="password"],
+form textarea {
+    width: calc(100% - 20px);
+    margin-bottom: 10rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input {
+    width: 50rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    padding: 1rem;
+}
+
+.submit-button {
+    position: relative;
+    left: 34.5rem;
+    bottom: 2.5vh;
+}
+
+.reviews {
+    height: 30vh;
+}
+
+.slogan {
+    text-align: start;
+}
+
+#depoimentos {
+    padding: 5rem 0;
+    background-color: #f8f9fa;
+  }
+  
+  #depoimentos h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #343a40;
+  }
+  
+  #carouselDepoimentos .carousel-item {
+    text-align: center;
+  }
+  
+  #carouselDepoimentos .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  #carouselDepoimentos .card-body {
+    padding: 2rem;
+  }
+  
+  #carouselDepoimentos .card-text {
+    font-size: 1.25rem;
+    color: #6c757d;
+    margin-bottom: 1.5rem;
+  }
+  
+  #carouselDepoimentos .card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #343a40;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-size: 100%, 100%;
+  }
